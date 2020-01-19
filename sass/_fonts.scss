@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Futura PT Book';
+src: url('../fonts/FuturaPT-Book.eot');
+src: url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+url('../fonts/FuturaPT-Book.woff') format('woff'),
+url('../fonts/FuturaPT-Book.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Bold';
+    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Bold.woff') format('woff'),
+    url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin book {
+    font-family: 'Futura PT Book', sans-serif;
+} 
+
+@mixin bold {
+    font-family: 'Futura PT Bold', sans-serif;
+}
