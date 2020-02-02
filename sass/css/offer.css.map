@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,aAAQ,CAAC;EACL,gBAAgB,EAAE,IAAI;CAAG",
+    "sources": [
+        "../blocks/offer.sass"
+    ],
+    "names": [],
+    "file": "offer.css"
+}
